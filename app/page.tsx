@@ -83,35 +83,37 @@ export default function Home() {
               <h2 className="text-3xl font-semibold mb-4">About Me</h2>
               <div className="space-y-4 leading-relaxed text-justify">
                 <p className="text-justify">
-                  I am a fourth year <strong>Computer Science PhD student</strong> at{" "}
-                  <strong>Arizona State University</strong>, where I serve as a
-                  Research Assistant at the{" "}
+                  I am a fourth-year <strong>Computer Science PhD student</strong> at{" "}
+                  <strong>Arizona State University</strong>, where I serve as a Research
+                  Assistant at the{" "}
                   <strong>
                     Secure, Trusted and Assured Microelectronics (STAM) Center
                   </strong>{" "}
-                  under the supervision of{" "}
-                  <strong>Prof. Michel A. Kinsy</strong>.
+                  under the supervision of <strong>Prof. Michel A. Kinsy</strong>.
                 </p>
-              </div>
-              <br />
-              <p className="text-justify">
-                {/* My work focuses on developing innovative tools and
-                algorithms to ensure <strong>memory safety</strong> in legacy
-                applications while maintaining high performance. I am also
-                investigating automated algorithms to facilitate{" "}
-                <strong>profile-guided optimization</strong> and compiler
-                autotuning to improve system efficiency. */}
-                My research interests broadly lie in the area of <strong>program analysis and transformation</strong>. 
-                Through <strong>compilers</strong>, <strong>binary analysis</strong>, <strong>instrumentation</strong>, and 
-                <strong>profile-guided optimization</strong>, my research seeks to develop techniques that better 
-                integrate program behavior and hardware characteristics into the compilation pipeline, enabling 
-                software to adapt to the requirements, constraints, and capabilities of emerging applications and computing systems.
-              </p>
-              <br />
-              <p className="text-justify">
-                I am also passionate about developing open-source software tools
-                to contribute to the <strong>RISC-V</strong> community.
-              </p>
+                </div>
+                <br />
+
+                <p className="text-justify">
+                  My research lies at the intersection of <strong>compilers</strong>,{" "}
+                  <strong>program analysis</strong>, and{" "}
+                  <strong>computer architecture</strong>. I develop techniques for
+                  understanding and transforming programs by incorporating information about{" "}
+                  <strong>runtime behavior</strong>, <strong>hardware capabilities</strong>,
+                  and <strong>system constraints</strong> into the compilation and
+                  optimization process. My work spans <strong>compiler optimization</strong>,{" "}
+                  <strong>binary analysis and instrumentation</strong>,{" "}
+                  <strong>profile-guided optimization</strong>, and{" "}
+                  <strong>hardware-assisted security</strong>, with the broader goal of
+                  enabling software to better adapt to emerging computing systems.
+                </p>
+
+                <br />
+
+                <p className="text-justify">
+                  I am also interested in building practical, open-source research tools,
+                  particularly for the <strong>RISC-V</strong> ecosystem.
+                </p>
 
               <div className="">
                 <h3 className="text-xl font-semibold mb-4 mt-10">
