@@ -148,10 +148,10 @@ export default function Home() {
 
               <div className="flex flex-col">
                 <Publication
-                  date=""
+                  date="Mar 2027"
                   title="LICHEN: Region-Aware Compiler Optimization Under Hard Binary-Size Constraints"
                   authors="Edwin P. Kayang, Mishel Jyothis Paul, Nges Brian Njungle, Michel A. Kinsy"
-                  venue="Design, Automation and Test in Europe Conference 2027"
+                  venue="Design, Automation and Test in Europe Conference"
                   status="Under Review"
                 />
 
