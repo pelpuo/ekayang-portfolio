@@ -83,27 +83,29 @@ export default function Home() {
               <h2 className="text-3xl font-semibold mb-4">About Me</h2>
               <div className="space-y-4 leading-relaxed text-justify">
                 <p className="text-justify">
-                  I am a third year <strong>Computer Science PhD student</strong> at{" "}
+                  I am a fourth year <strong>Computer Science PhD student</strong> at{" "}
                   <strong>Arizona State University</strong>, where I serve as a
                   Research Assistant at the{" "}
                   <strong>
                     Secure, Trusted and Assured Microelectronics (STAM) Center
                   </strong>{" "}
                   under the supervision of{" "}
-                  <strong>Prof. Michel A. Kinsy</strong>. My research interests
-                  are centered at the intersection of{" "}
-                  <strong>Program Analysis</strong>, <strong>Compilers</strong>,
-                  and <strong>System Security</strong>
+                  <strong>Prof. Michel A. Kinsy</strong>.
                 </p>
               </div>
               <br />
               <p className="text-justify">
-                My work focuses on developing innovative tools and
+                {/* My work focuses on developing innovative tools and
                 algorithms to ensure <strong>memory safety</strong> in legacy
                 applications while maintaining high performance. I am also
                 investigating automated algorithms to facilitate{" "}
                 <strong>profile-guided optimization</strong> and compiler
-                autotuning to improve system efficiency.
+                autotuning to improve system efficiency. */}
+                My research interests broadly lie in the area of <strong>program analysis and transformation</strong>. 
+                Through <strong>compilers</strong>, <strong>binary analysis</strong>, <strong>instrumentation</strong>, and 
+                <strong>profile-guided optimization</strong>, my research seeks to develop techniques that better 
+                integrate program behavior and hardware characteristics into the compilation pipeline, enabling 
+                software to adapt to the requirements, constraints, and capabilities of emerging applications and computing systems.
               </p>
               <br />
               <p className="text-justify">
@@ -144,45 +146,84 @@ export default function Home() {
 
               <div className="flex flex-col">
                 <Publication
+                  date="Sept 2026"
+                  title="LICHEN: Region-Aware Compiler Optimization Under Hard Binary-Size Constraints"
+                  authors="Edwin P. Kayang, Mishel Jyothis Paul, Nges Brian Njungle, Michel A. Kinsy"
+                  venue="Design, Automation and Test in Europe Conference 2027"
+                  status="Under Submission"
+                />
+
+                <Publication
+                  date="Sept 2026"
+                  title="EnForge: Enforcing Memory Safety in Legacy Applications through Capability Injection"
+                  authors="Edwin P. Kayang, Mishel Jyothis Paul, Michel A. Kinsy"
+                  venue="Asian Hardware Oriented Security and Trust Symposium"
+                  status="Just Accepted"
+                />
+
+                <Publication
+                  date="Sept 2026"
+                  title="ARCHE: Hardware-Managed Pointer Provenance Propagation for Capability Architectures"
+                  authors="Mishel Jyothis Paul, Edwin Kayang, Eric Jahns, Michel A. Kinsy"
+                  venue="Asian Hardware Oriented Security and Trust Symposium"
+                  status="Just Accepted"
+                />
+
+                <Publication
+                  date="Aug 2026"
+                  title="FLAVIUM: A Multi-Agent System for Reactive Defensive Cyber Operations with Distilled Neural Policies"
+                  authors="Luigi Mastromauro, Yaphet Elias Weldegebriel, Mishel Jyothis Paul, Edwin Kayang, Muslum Ozgur Ozmen, Michel A. Kinsy"
+                  venue="Asian Hardware Oriented Security and Trust Symposium"
+                  status="Just Accepted"
+                />
+
+                <Publication
+                  date="Oct 2025"
+                  title="DALC-CT: Dynamic Analysis of Low-Level Code Traces for Constant-Time Verification"
+                  authors="Nges Brian Njungle, Edwin Kayang, Mishel Jyothis Paul, Michel A. Kinsy"
+                  venue="arXiv preprint arXiv:2604.16832"
+                  paperUrl="https://arxiv.org/abs/2604.16832"
+                />
+
+                <Publication
                   date="Dec 2025"
                   title="Panoptes: A Framework for Profile Clustering and Context-Aware Binary Optimization"
-                  authors="Edwin P. Kayang, Eric Jahns, Mishel Jyothis Paul, Michel A. Kinsy"
+                  authors="Edwin Kayang, Eric Jahns, Mishel Jyothis Paul, Michel A. Kinsy"
                   venue="ACM/IEEE International Conference on Software Engineering"
-                  status="Just Accepted"
-                />{" "}
-                {/* [cite: 34-38] */}
+                  paperUrl="https://dl.acm.org/doi/10.1145/3744916.3787767"
+                />
+
                 <Publication
                   date="Oct 2025"
                   title="Prismo: A Decision Support System for Privacy-Preserving ML Framework Selection"
-                  authors="Nges Brian Njungle, Eric Jahns, Luigi Mastromauro, Kayang, Edwin P, Milan Stojkov, Michel A. Kinsy"
+                  authors="Nges Brian Njungle, Eric Jahns, Luigi Mastromauro, Edwin Kayang, Milan Stojkov, Michel A. Kinsy"
                   venue="arXiv preprint arXiv:2510.09985"
                   paperUrl="https://arxiv.org/pdf/2510.09985"
-                />{" "}
-                {/* [cite: 39-43] */}
+                />
+
                 <Publication
                   date="Sept 2025"
                   title="AQUILA: A Flexible Architecture Guideline for Building Custom Distributed Systems Testbeds"
                   authors="Luigi Mastromauro, Edwin Kayang, Mishel Jyothis Paul, Eric Jahns, Muslum Ozgur Ozmen, Michel A. Kinsy"
                   venue="IEEE/IFIP International Conference on Embedded and Ubiquitous Computing"
                   status="Just Accepted"
-                />{" "}
-                {/* [cite: 44-48] */}
+                />
+
                 <Publication
                   date="June 2025"
                   title="R-Visor: An Extensible Dynamic Binary Instrumentation and Analysis Framework for Open Instruction Set Architectures"
                   authors="Edwin Kayang, Mishel Jyothis Paul, Eric Jahns, Muslum Ozgur Ozmen, Milan Stojkov, Kevin Rudd, Michel A. Kinsy"
-                  venue="ACM SIGPLAN/SIGBED LCTES"
-                  paperUrl="https://dl.acm.org/doi/pdf/10.1145/3735452.3735522"
-                />{" "}
-                {/* [cite: 49-53] */}
+                  venue="ACM SIGPLAN/SIGBED Conference on Languages Compilers Tools and Theory for Embedded Systems"
+                  paperUrl="https://dl.acm.org/doi/10.1145/3735452.3735522"
+                />
+
                 <Publication
                   date="Nov 2021"
                   title="Autograd: Automated grading software for mobile game assignments in Suacode courses"
                   authors="Prince Steven Annor, Edwin Kayang, Samuel Boateng, George Boateng"
                   venue="Computer Science Education Research Conference"
-                  paperUrl="https://dl.acm.org/doi/pdf/10.1145/3507923.3507954"
-                />{" "}
-                {/* [cite: 54-59] */}
+                  paperUrl="https://doi.org/10.1145/3507923.3507954"
+                />
               </div>
             </section>
             {/* Artifacts */}
