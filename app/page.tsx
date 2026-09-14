@@ -184,7 +184,7 @@ export default function Home() {
                   date="Aug 2026"
                   title="FLAVIUM: A Multi-Agent System for Reactive Defensive Cyber Operations with Distilled Neural Policies"
                   authors="Luigi Mastromauro, Yaphet Elias Weldegebriel, Mishel Jyothis Paul, Edwin Kayang, Muslum Ozgur Ozmen, Michel A. Kinsy"
-                  venue="Asian Hardware Oriented Security and Trust Symposium"
+                  venue="IEEE High Performance Extreme Computing"
                   status="Just Accepted"
                 />
 
