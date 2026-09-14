@@ -125,7 +125,7 @@ export default function Home() {
                     {[
                       "Binary Analysis",
                       "Compilers",
-                      "Systems Security",
+                      "Profile-Guided Optimization",
                       "Machine Learning",
                     ].map((skill) => (
                       <span
