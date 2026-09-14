@@ -146,21 +146,31 @@ export default function Home() {
                 Publications
               </h2>
 
+              <h3 className="text-xl font-semibold mb-4 mt-10 text-gray-600">
+                Journal Articles
+              </h3>
+              <hr className="border-gray-900 mb-12" />
+
+              <Publication
+                  date=""
+                  title="R-Visor: Towards Extensible Dynamic Binary Instrumentation and Analysis for the RISC-V Instruction Set Architecture"
+                  authors="Edwin Kayang, Mishel Jyothis Paul, Eric Jahns, Muslum Ozgur Ozmen, Milan Stojkov, Kevin Rudd, Michel A. Kinsy"
+                  venue="ACM Transactions on Embedded Computing Systems"
+                  paperUrl=""
+                  status="Under Review"
+                />
+              
+              <h3 className="text-xl font-semibold mb-4 mt-24 text-gray-600">
+                Conference Papers
+              </h3>
+              <hr className="border-gray-900 mb-12" />
+
               <div className="flex flex-col">
                 <Publication
                   date="Mar 2027"
                   title="LICHEN: Region-Aware Compiler Optimization Under Hard Binary-Size Constraints"
                   authors="Edwin P. Kayang, Mishel Jyothis Paul, Nges Brian Njungle, Michel A. Kinsy"
                   venue="Design, Automation and Test in Europe Conference"
-                  status="Under Review"
-                />
-
-                <Publication
-                  date=""
-                  title="R-Visor: Towards Extensible Dynamic Binary Instrumentation and Analysis for the RISC-V Instruction Set Architecture"
-                  authors="Edwin Kayang, Mishel Jyothis Paul, Eric Jahns, Muslum Ozgur Ozmen, Milan Stojkov, Kevin Rudd, Michel A. Kinsy"
-                  venue="ACM Transactions on Embedded Computing Systems"
-                  paperUrl=""
                   status="Under Review"
                 />
 
@@ -218,6 +228,7 @@ export default function Home() {
                   authors="Luigi Mastromauro, Edwin Kayang, Mishel Jyothis Paul, Eric Jahns, Muslum Ozgur Ozmen, Michel A. Kinsy"
                   venue="IEEE/IFIP International Conference on Embedded and Ubiquitous Computing"
                   status="Just Accepted"
+                  paperUrl="https://doi.org/10.1109/EUC66494.2025.00009"
                 />
 
                 <Publication
