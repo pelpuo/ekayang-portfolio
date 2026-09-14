@@ -146,7 +146,7 @@ export default function Home() {
                 Publications
               </h2>
 
-              <h3 className="text-xl font-semibold mb-4 mt-10 text-gray-600">
+              <h3 className="text-xl font-semibold mb-4 mt-10 text-gray-500">
                 Journal Articles
               </h3>
               <hr className="border-gray-900 mb-12" />
@@ -160,7 +160,7 @@ export default function Home() {
                   status="Under Review"
                 />
               
-              <h3 className="text-xl font-semibold mb-4 mt-24 text-gray-600">
+              <h3 className="text-xl font-semibold mb-4 mt-24 text-gray-500">
                 Conference Papers
               </h3>
               <hr className="border-gray-900 mb-12" />
