@@ -333,7 +333,7 @@ export default function Home() {
                       className=""
                     >
                       <span className="text-blue-400 underline">
-                        Repository
+                        Record
                       </span>
                     </a>
                     ]
@@ -360,7 +360,7 @@ export default function Home() {
                       className=""
                     >
                       <span className="text-blue-400 underline">
-                        Repository
+                        Record
                       </span>
                     </a>
                     ]
