@@ -367,33 +367,6 @@ export default function Home() {
                   </span>
                 </div>
 
-                {/* EnCert */}
-                <div className="p-4 bg-gray-900 rounded-lg">
-                  <h3 className="text-2xl font-semibold mb-2">EnCert</h3>
-                  <p className="text-sm text-gray-300 mb-2">
-                    A compiler-based formal verification framework for ensuring
-                    the correctness of namespace-protected applications.
-                  </p>
-                  <p className="text-xs font-mono text-gray-500">
-                    Tools/Techniques: C++, Verification, Static
-                    Analysis
-                  </p>
-                  <span className="text-sm block">
-                    [
-                    <a
-                      href="https://zenodo.org/records/23046077"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className=""
-                    >
-                      <span className="text-blue-400 underline">
-                        Repository
-                      </span>
-                    </a>
-                    ]
-                  </span>
-                </div>
-
               </div>
             </section>
           </section>
