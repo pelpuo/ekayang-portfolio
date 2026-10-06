@@ -167,6 +167,14 @@ export default function Home() {
 
               <div className="flex flex-col">
                 <Publication
+                  date="Jan 2027"
+                  title="EnCert: Compiler-Based Formal Verification of Namespace-Protected Applications"
+                  authors="Edwin P. Kayang, Mishel Jyothis Paul, Luigi Mastromauro, Michel A. Kinsy"
+                  venue="28th International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2027)"
+                  status="Under Review"
+                />
+
+                <Publication
                   date="Mar 2027"
                   title="LICHEN: Region-Aware Compiler Optimization Under Hard Binary-Size Constraints"
                   authors="Edwin P. Kayang, Mishel Jyothis Paul, Nges Brian Njungle, Michel A. Kinsy"
@@ -252,6 +260,7 @@ export default function Home() {
             <section className="my-12 mb-24 w-full" id="artifacts">
               <h2 className="text-3xl font-semibold mb-10">Artifacts</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
                 {/* R-Visor */}
                 <div className="p-4 bg-gray-900 rounded-lg">
                   <h3 className="text-2xl font-semibold mb-2">R-Visor</h3>
@@ -305,6 +314,86 @@ export default function Home() {
                     ]
                   </span>
                 </div>
+
+                {/* GraphShot */}
+                <div className="p-4 bg-gray-900 rounded-lg">
+                  <h3 className="text-2xl font-semibold mb-2">GraphShot</h3>
+                  <p className="text-sm text-gray-300 mb-2">
+                    A Large-Scale Program Representation Dataset for Machine Learning in Compilers
+                  </p>
+                  <p className="text-xs font-mono text-gray-500">
+                    Tools/Techniques: Pytorch, CSV
+                  </p>
+                  <span className="text-sm block">
+                    [
+                    <a
+                      href="https://zenodo.org/records/20130320"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=""
+                    >
+                      <span className="text-blue-400 underline">
+                        Repository
+                      </span>
+                    </a>
+                    ]
+                  </span>
+                </div>
+
+                {/* EnCert */}
+                <div className="p-4 bg-gray-900 rounded-lg">
+                  <h3 className="text-2xl font-semibold mb-2">EnCert</h3>
+                  <p className="text-sm text-gray-300 mb-2">
+                    A compiler-based formal verification framework for ensuring
+                    the correctness of namespace-protected applications.
+                  </p>
+                  <p className="text-xs font-mono text-gray-500">
+                    Tools/Techniques: C++, Verification, Static
+                    Analysis
+                  </p>
+                  <span className="text-sm block">
+                    [
+                    <a
+                      href="https://zenodo.org/records/23046077"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=""
+                    >
+                      <span className="text-blue-400 underline">
+                        Repository
+                      </span>
+                    </a>
+                    ]
+                  </span>
+                </div>
+
+                {/* EnCert */}
+                <div className="p-4 bg-gray-900 rounded-lg">
+                  <h3 className="text-2xl font-semibold mb-2">EnCert</h3>
+                  <p className="text-sm text-gray-300 mb-2">
+                    A compiler-based formal verification framework for ensuring
+                    the correctness of namespace-protected applications.
+                  </p>
+                  <p className="text-xs font-mono text-gray-500">
+                    Tools/Techniques: C++, Verification, Static
+                    Analysis
+                  </p>
+                  <span className="text-sm block">
+                    [
+                    <a
+                      href="https://zenodo.org/records/23046077"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=""
+                    >
+                      <span className="text-blue-400 underline">
+                        Repository
+                      </span>
+                    </a>
+                    ]
+                  </span>
+                </div>
+
               </div>
             </section>
           </section>
